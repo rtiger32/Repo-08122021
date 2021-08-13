@@ -32,6 +32,7 @@ public class Order {
 	@Column(name="order_quantity", nullable=false)
 	private int orderQty;
 	
+	@Id
 	@ManyToOne(cascade= CascadeType.ALL)
 	private Item itemId;
 	
