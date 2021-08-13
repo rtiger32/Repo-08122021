@@ -31,7 +31,7 @@ public class Employee {
 	private int empId;
 
 	@Column(name="emp_firstname", nullable=false)
-private String firstName;
+	private String firstName;
 	
 	@Column(name="emp_lastname", nullable=false)
 	private String lastName;
